@@ -28,4 +28,4 @@ function BootingScreen({handleBooting}) {
   )
 }
 
-export default BootingScreen
+export default BootingScreen;

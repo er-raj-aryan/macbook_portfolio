@@ -1,4 +1,6 @@
+
 import React from 'react';
+import MenuBar from '../Common/MenuList/MenuBar';
 
 function Navbar() {
   return (
@@ -6,6 +8,7 @@ function Navbar() {
       <div className='h-[100%] flex gap-4 items-center'>
       {/* logo */}
       <img className="h-[80%] cursor-pointer" src="./apple.svg" alt="apple" />
+      {/* <MenuBar /> */}
       {/* menu list */}
       <ul className='flex gap-5 '>
         <li className='cursor-pointer'>Finder</li>
